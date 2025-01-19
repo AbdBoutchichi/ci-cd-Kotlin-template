@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde282c0-fc53-454d-b886-11b9472085c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/m1miage/CiCdKotlinTemplateApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/m1miage/AppTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/M1MIAGE/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/M1MIAGE/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ci-cd-kotlin-template-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ci-cd-kotlin-template-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,9 @@
     &quot;accountId&quot;: &quot;db5ead53-f741-4b5a-bf64-8b161aa45413&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -38,32 +51,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ci-cd-kotlin-template [clean,install].executor": "Run",
-    "Maven.ci-cd-kotlin-template [clean].executor": "Run",
-    "Maven.ci-cd-kotlin-template [test].executor": "Run",
-    "Maven.ci-cd-kotlin-template [verify].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/USDV__001",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.CiCdKotlinTemplateApplicationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ci-cd-kotlin-template [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ci-cd-kotlin-template [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ci-cd-kotlin-template [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ci-cd-kotlin-template [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ci-cd-kotlin-template [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/USDV__001&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\git\ci-cd-Kotlin-template" />
       <recent name="C:\Users\lenovo\git\ci-cd-Kotlin-template\ci-cd-kotlin-template" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.CiCdKotlinTemplateApplicationKt">
+    <configuration name="CiCdKotlinTemplateApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.m1miage.CiCdKotlinTemplateApplicationKt" />
+      <module name="ci-cd-kotlin-template" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ci-cd-kotlin-template [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="azul-17" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="cmdOptions" />
@@ -91,6 +129,15 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.CiCdKotlinTemplateApplicationKt" />
+      <item itemvalue="Maven.ci-cd-kotlin-template [clean,install]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.CiCdKotlinTemplateApplicationKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
