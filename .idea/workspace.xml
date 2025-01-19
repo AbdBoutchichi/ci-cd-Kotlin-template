@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde282c0-fc53-454d-b886-11b9472085c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/config/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/config/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/config/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/src/main/java/com/M1MIAGE/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/M1MIAGE/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/src/test/java/com/M1MIAGE/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/M1MIAGE/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/target/ci-cd-kotlin-template-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ci-cd-kotlin-template/target/maven-archiver/pom.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="fde282c0-fc53-454d-b886-11b9472085c9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,8 +36,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.ci-cd-kotlin-template [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/USDV__001",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
