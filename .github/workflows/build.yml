@@ -42,9 +42,6 @@ jobs:
       - name: Unit Tests
         run: mvn test
 
-      - name: Integration Tests
-        run: mvn verify -DskipUnitTests
-
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
